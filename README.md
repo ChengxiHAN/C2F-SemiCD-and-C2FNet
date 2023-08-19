@@ -1,5 +1,5 @@
-# C2F-SemiCD-C2F-CDNet
-C2F-SemiCD-C2F-CDNet:
+# C2F-SemiCD & C2F-CDNet
+C2F-SemiCD & C2F-CDNet:
 
 Our code will be released after the manuscript is accepted.
 
