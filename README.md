@@ -1,5 +1,5 @@
-# C2F-SemiCD & C2F-CDNet::https://chengxihan.github.io/
-C2F-SemiCD & C2F-CDNet:
+# C2F-SemiCD-and-C2FNet::https://chengxihan.github.io/
+C2F-SemiCD-and-C2FNet:
 ![image-20230415](/picture/Visualization.png)
 
 ### Requirement  
