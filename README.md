@@ -47,9 +47,9 @@ CDD-CD: Our split in [Baidu Disk](https://pan.baidu.com/s/1cwJ0mEhcrbCWOJn5n-N5J
 DSIFN-CD: Our split in [Baidu Disk]( https://pan.baidu.com/s/1-GD3z_eMoQglSJoi9P-6gw?pwd=2023),pwd:2023
 
  Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it.
- ![image-20230415](/picture/GoogleGZ.gif)
- ![image-20230415](/picture/WHU.gif)
- ![image-20230415](/picture/LEVIR.gif)
+ ![image-20230415](/picture/GoogleGZ-CD.gif)
+ ![image-20230415](/picture/WHU-CD.gif)
+ ![image-20230415](/picture/LEVIR-CD.gif)
  
  And also we provide all test results of our HANet in the HANetTestResult!!!! Download in HANetTestResult or [Baidu Disk](https://pan.baidu.com/s/1nwPYkqtUIKe90KZoT5VO-A?pwd=2023 ),pwd:2023 😋😋😋
 
