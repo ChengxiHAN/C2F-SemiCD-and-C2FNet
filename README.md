@@ -48,9 +48,11 @@ python test_visualisation.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiMo
 ```
 
 ## Test our trained model result  
-You can directly test our model by our provided training weights in  `tmp/WHU, LEVIR, SYSU, and S2Looking `. And make sure the weight name is right. Of course, for different datasets, the `Dataset mean and std setting` is different.
+You can directly test our model by our provided training weights in  `out/`. And make sure the weight name is right. Of course, for different methods and datasets, the `Dataset mean and std setting` is different.
 ```bash
 path = opt.weight_dir+'final_epoch99.pt'
+parser.add_argument('--save_path', type=str, default='./output/C2F-SemiCD/WHU-5/')  # Semi-supervised models save paths！！
+parser.add_argument('--save_path', type=str, default='./output/C2FNet/WHU-5/')  # Fully supervised models save paths！！
 ```
 
 ## Dataset Download   
@@ -110,7 +112,7 @@ DSIFN-CD: Our split in [Baidu Disk]( https://pan.baidu.com/s/1-GD3z_eMoQglSJoi9P
 ```
 ## Acknowledgments
  
- Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS),[pytorch-SNUNet](https://github.com/likyoo/Siam-NestedUNet), Thanks  for their great work!!  
+ Thanks for my co-authors [Jiepan Li](https://henryjiepanli.github.io/Jiepanli_Henry.github.io/),[Haonan Guo](https://www.poleguo98.top/), Thanks  for their great work!!  
 
 
 
