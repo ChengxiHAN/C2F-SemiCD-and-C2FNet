@@ -1,5 +1,6 @@
 # C2F-SemiCD-and-C2FNet::https://chengxihan.github.io/
 C2F-SemiCD-and-C2FNet:https://ieeexplore.ieee.org/document/10445496
+![image-20230415](/picture/C2F-SemiCD and C2FNet.png)
 ![image-20230415](/picture/Visualization.png)
 
 ### Requirement  
