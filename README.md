@@ -1,6 +1,11 @@
 # C2F-SemiCD-and-C2FNet::https://chengxihan.github.io/
+# C2F-SemiCD：Semi-Supervised CD method
+# C2FNet：Supervised CD method
+
+
 The Pytorch implementation for:
 “[C2F-SemiCD and C2FNet: A coarse-to-fine semi-supervised change detection method based on consistency regularization in High-Resolution Remote-Sensing Images](https://ieeexplore.ieee.org/document/10445496),” IEEE Transactions on Geoscience and Remote Sensing（TGRS）, 2024, DOI: 10.1109/TGRS.2024.3370568.Chengxi Han,Chen Wu,Meiqi Hu,Jiepan Li,Hongruixuan Chen
+
 
 ![image-20230415](/picture/C2F-SemiCD-C2FNet.png)
 ![image-20230415](/picture/Visualization.png)
