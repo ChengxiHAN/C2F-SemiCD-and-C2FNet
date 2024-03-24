@@ -26,17 +26,22 @@ The Pytorch implementation for:
 ```bash
 1.Semi-supervised training:
 python train_C2F-SemiCD.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+
 2.Fully supervised training:
 python train_C2FNet.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+
 3.Ablation experiment training:
 python train_C2F-SemiCD_Ablation.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
 
 1.Semi-supervised testing:
 python test_C2F-SemiCD.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+
 2.Fully supervised testing:
 python test_C2FNet.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+
 3.Ablation experiments test:
 python test_Ablation.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+
 4.Feature visualization:
 python test_visualisation.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
 
