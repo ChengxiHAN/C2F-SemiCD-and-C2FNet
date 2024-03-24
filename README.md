@@ -1,6 +1,6 @@
 # C2F-SemiCD-and-C2FNet:https://chengxihan.github.io/
-# C2F-SemiCD：Semi-Supervised CD method
-# C2FNet：Supervised CD method
+# C2F-SemiCD：A Semi-Supervised CD method
+# C2FNet：A Supervised CD method
 
 
 The Pytorch implementation for:
