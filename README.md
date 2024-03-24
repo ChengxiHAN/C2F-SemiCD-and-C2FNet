@@ -71,11 +71,11 @@ DSIFN-CD: Our split in [Baidu Disk]( https://pan.baidu.com/s/1-GD3z_eMoQglSJoi9P
  ![image-20230415](/picture/WHU-CD.gif)
  ![image-20230415](/picture/LEVIR-CD.gif)
  
- And also we provide all test results of our HANet in the HANetTestResult!!!! Download in HANetTestResult or [Baidu Disk](https://pan.baidu.com/s/1nwPYkqtUIKe90KZoT5VO-A?pwd=2023 ),pwd:2023 😋😋😋
+ And also we provide all test results of our C2F-SemiCD and C2FNet in the output!!!! Download in output or [Baidu Disk](),pwd:2023 😋😋😋
 
 ## Dataset Path Setting
 ```
- LEVIR-CD or WHU-CD  
+ LEVIR-CD or WHU-CD  or GoogleGZ-CD
      |—train  
           |   |—A  
           |   |—B  
@@ -90,14 +90,7 @@ DSIFN-CD: Our split in [Baidu Disk]( https://pan.baidu.com/s/1-GD3z_eMoQglSJoi9P
           |   |—label
   ```        
  Where A contains images of the first temporal image, B contains images of the second temporal images, and the label contains ground truth maps.  
-## Dataset mean and std setting 
-We calculated mean and std for seven data sets in line 27-38 of `utils/datasetHCX` , you can use one directly and then annotate the others.
-```bash
-# It is for LEVIR!
-# self.mean1, self.std1, self.mean2, self.std2 =[0.45025915, 0.44666713, 0.38134697],[0.21711577, 0.20401315, 0.18665968],[0.3455239, 0.33819652, 0.2888149],[0.157594, 0.15198614, 0.14440961]
-# It is for WHU!
-self.mean1, self.std1, self.mean2, self.std2 = [0.49069053, 0.44911194, 0.39301977], [0.17230505, 0.16819492,0.17020544],[0.49139765,0.49035382,0.46980983], [0.2150498, 0.20449342, 0.21956162]
-```
+
 ## Citation 
 
  If you use this code for your research, please cite our papers.  
