@@ -21,15 +21,18 @@ The Pytorch implementation for:
 -Cudnn 11.3  
 ```
 
-## Revised parameters 
- You can revise related parameters in the `metadata.json` file.  
- 
 ## Training, Test and Visualization Process   
 
 ```bash
-python trainHCX.py 
-python test.py 
-python Output_Results.py
+Semi-supervised training: python train_C2F-SemiCD.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+Fully supervised training: python train_C2FNet.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+Ablation experiment training: python train_C2F-SemiCD_Ablation.py --epoch 2 --batchsize 16 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+
+Semi-supervised testing: python test_C2F-SemiCD.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+Fully supervised testing: python test_C2FNet.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+Ablation experiments test:python test_Ablation.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+Feature visualization: python test_visualisation.py --gpu_id '2' --data_name 'WHU' --model_name 'SemiModel_noema04'
+
 ```
 
 ## Test our trained model result  
