@@ -216,7 +216,7 @@ if __name__ == '__main__':
     parser.add_argument('--model_name', type=str, default='SemiModel_noema04',
                         help='the test rgb images root')
     # parser.add_argument('--save_path', type=str, default='./output/C2F-SemiCD/WHU-5/')  # 半监督的模型保存路径！！
-    parser.add_argument('--save_path', type=str, default='./output/C2FNet/WHU-5/')  # 全监督的模型保存路径！！
+    parser.add_argument('--save_path', type=str, default='./output/C2FNet/WHU/')  # 全监督的模型保存路径！！
 
     opt = parser.parse_args()
     print('labeled ration=0.05,Ablation现在半监督损失函数系数为:0.2!')
