@@ -92,6 +92,13 @@ DSIFN-CD: Our split in [Baidu Disk]( https://pan.baidu.com/s/1-GD3z_eMoQglSJoi9P
           |   |—label
   ```        
  Where A contains images of the first temporal image, B contains images of the second temporal images, and the label contains ground truth maps.  
+ 
+## Quantization accuracy
+![image-20230415](/picture/C2F-SemiCD-GoogleGZ.png)
+![image-20230415](/picture/C2F-SemiCD-WHU.png)
+![image-20230415](/picture/C2F-SemiCD-LEVIR.png)
+![image-20230415](/picture/C2F-SemiCD-WHUsup-LEVIRunsup.png)
+![image-20230415](/picture/C2F-SemiCD-LEVIRsup-WHUunsup.png)
 
 ## Citation 
 
