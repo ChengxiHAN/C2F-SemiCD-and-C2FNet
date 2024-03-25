@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 #-------测试老师的模型teacher-------
     # save_path = './output/C2F-SemiCD/WHU-5/'  #半监督C2F-SemiCD模型路径！！
-    # save_path = './output/C2FNet-WHU-5/'  #全监督C2FNet模型路径！！
+    # save_path = './output/C2FNet/WHU/'  #全监督C2FNet模型路径！！
 
     # # save_path = save_path + '/' + opt.model_name
     # save_path = save_path + opt.data_name + '/' + opt.model_name
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
     #-------测试学生的模型student-------
     save_path = './output/C2F-SemiCD/WHU-5/'  #半监督C2F-SemiCD模型路径！！
-    # save_path = './output/C2FNet/WHU-5/'  #全监督C2FNet模型路径！！
+    # save_path = './output/C2FNet/WHU/'  #全监督C2FNet模型路径！！
 
     # save_path = save_path +  opt.model_name
     save_path = save_path + opt.data_name + '/' + opt.model_name
