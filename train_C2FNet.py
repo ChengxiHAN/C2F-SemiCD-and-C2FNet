@@ -206,7 +206,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=5e-4, help='learning rate')
     parser.add_argument('--batchsize', type=int, default=16, help='training batch size') #修改这里！！！
     parser.add_argument('--trainsize', type=int, default=256, help='training dataset size')
-    parser.add_argument('--train_ratio', type=float, default=0.05, help='Proportion of the labeled images')#修改这里！！！
+    parser.add_argument('--train_ratio', type=float, default=1, help='Proportion of the labeled images')#修改这里！！！
     parser.add_argument('--clip', type=float, default=0.5, help='gradient clipping margin')
     parser.add_argument('--decay_rate', type=float, default=0.1, help='decay rate of learning rate')
     parser.add_argument('--decay_epoch', type=int, default=50, help='every n epochs decay learning rate')
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_path', type=str, default='./output/C2FNet/WHU/')  # 全监督的模型保存路径！！
 
     opt = parser.parse_args()
-    print('labeled ration=0.05,Ablation现在半监督损失函数系数为:0.2!')
+    print('labeled ration=1,Ablation现在半监督损失函数系数为:0.2!')
 
     # set the device for training
     if opt.gpu_id == '0':
@@ -308,7 +308,7 @@ if __name__ == '__main__':
         # 可以先全用有标签的训练几个epoch，再进行半监督训练 !!!!
         # if epoch<5: #默认的为5，测试10，15，20
         #     use_ema=False
-        #     # print('labeled ration=0.05,Ablation现在监督训练的次数为:20!')
+        #     # print('labeled ration=1,Ablation现在监督训练的次数为:20!')
         # else:
         #     use_ema=True
 
