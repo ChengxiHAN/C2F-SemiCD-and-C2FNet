@@ -6,6 +6,27 @@
 The Pytorch implementation for:
 “[C2F-SemiCD and C2FNet: A coarse-to-fine semi-supervised change detection method based on consistency regularization in High-Resolution Remote-Sensing Images](https://ieeexplore.ieee.org/document/10445496),” IEEE Transactions on Geoscience and Remote Sensing（TGRS）, 2024, DOI: 10.1109/TGRS.2024.3370568.Chengxi Han,Chen Wu,Meiqi Hu,Jiepan Li,Hongruixuan Chen
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-levir-cd)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-levir-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-levir-cd-1)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-levir-cd-1?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-levir-cd-2)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-levir-cd-2?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-levir-cd-3)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-levir-cd-3?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-whu-5)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-whu-5?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-whu-10)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-whu-10?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-whu-20)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-whu-20?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/semi-supervised-change-detection-on-whu-40)](https://paperswithcode.com/sota/semi-supervised-change-detection-on-whu-40?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-whu-cd)](https://paperswithcode.com/sota/change-detection-on-whu-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-sysu-cd)](https://paperswithcode.com/sota/change-detection-on-sysu-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-cdd-dataset-season-1)](https://paperswithcode.com/sota/change-detection-on-cdd-dataset-season-1?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-dsifn-cd)](https://paperswithcode.com/sota/change-detection-on-dsifn-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-googlegz-cd)](https://paperswithcode.com/sota/change-detection-on-googlegz-cd?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/c2f-semicd-a-coarse-to-fine-semi-supervised/change-detection-on-levir)](https://paperswithcode.com/sota/change-detection-on-levir?p=c2f-semicd-a-coarse-to-fine-semi-supervised)
+
+
+
 
 ![image-20230415](/picture/C2F-SemiCD-C2FNet.png)
 ![image-20230415](/picture/Visualization.png)
